@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Canvas</title>
+    <link rel="stylesheet" href="./Air.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <img src="Img_can/20211018_121945.png" alt="">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#About">About Us</a></li>
+                    <li><a href="#Howtouse">How to use</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1><i style="color: goldenrod;">Air Canvas</i></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptates possimus officiis aspernatur sit
+                <br>placeat in repellendus adipisci nam quod.
+            </p>
+            <a href="" class="book-btn">Go Air</a>
+        </div>
+    </section>
+    <section class="services" id="About">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore sequi nam obcaecati doloremque veritatis
+            maiores.</p>
+        <div class="row">
+            <div class="services-col">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="Img_can/WhatsApp Image 2021-10-18 at 11.32.15 AM.jpeg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h4>Faizan Shaikh</h4>
+                    </div>
+                    <div class="sci">
+                        <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-col">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="Img_can/WhatsApp Image 2021-10-18 at 11.26.48 AM.jpeg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h4>Vatsal Shah</h4>
+                    </div>
+                    <div class="sci">
+                        <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="services-col">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="Img_can/20200302_113643.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h4>Mohd Hussain</h4>
+                    </div>
+                    <div class="sci">
+                        <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="footer" id="Howtouse">
+        <h4>Info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quasi minus,<br> veritatis numquam
+            delectus
+            perspiciatis in sunt suscipit! Natus, et?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+    </section>
+</body>
+<script>
+    var toggleMenu = document.getElementById("navLinks");
+    function showMenu() {
+        toggleMenu.style.right = "0";
+    }
+    function hideMenu() {
+        toggleMenu.style.right = "-200px";
+    }
+
+</script>
+
+</html>
